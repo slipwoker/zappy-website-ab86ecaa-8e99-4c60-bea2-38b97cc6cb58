@@ -7036,6 +7036,128 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 body {
   font-family: 'Heebo', sans-serif;
 }
+
+.site-footer {
+  background: linear-gradient(180deg, var(--background-color) 0%, #0D0B1A 50%, #06060B 100%) !important;
+  border-top: 1px solid rgba(168, 85, 247, 0.15) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.site-footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.6), transparent);
+  box-shadow: 0 0 12px rgba(168, 85, 247, 0.4);
+  z-index: 1;
+}
+
+.site-footer .footer-links-col h4,
+.site-footer .footer-contact-col h4,
+.site-footer .footer-hours-col h4,
+.site-footer .footer-social-col h4 {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.3);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.site-footer .company-blurb {
+  color: var(--text-secondary-color) !important;
+  line-height: 1.7;
+}
+
+.site-footer .footer-links a,
+.site-footer .footer-contact a,
+.site-footer .footer-hours a {
+  color: #CCCCDD !important;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.site-footer .footer-links a:hover,
+.site-footer .footer-contact a:hover,
+.site-footer .footer-hours a:hover {
+  color: var(--primary-color) !important;
+  text-shadow: 0 0 8px rgba(168, 85, 247, 0.4);
+}
+
+.site-footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.06) !important;
+  padding-top: 24px;
+  margin-top: 48px;
+}
+
+.site-footer .footer-bottom a {
+  color: #8888AA !important;
+}
+
+.site-footer .footer-bottom a:hover {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .footer-social a {
+  background: rgba(168, 85, 247, 0.1) !important;
+  border: 1px solid rgba(168, 85, 247, 0.2) !important;
+  color: #CCCCDD !important;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.site-footer .footer-social a:hover {
+  background: rgba(168, 85, 247, 0.25) !important;
+  border-color: rgba(168, 85, 247, 0.5) !important;
+  color: var(--primary-color) !important;
+  box-shadow: 0 0 16px rgba(168, 85, 247, 0.4);
+}
+
+.site-footer .copyright {
+  color: #8888AA !important;
+}
+
+.site-footer .contact-list a {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .contact-list li {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .contact-list span {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .footer-legal a {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .copyright p {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .footer-bottom a {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .footer-bottom p {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .footer-bottom span:not(.separator) {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .footer-legal .separator {
+  color: var(--primary-color) !important;
+}
+
+.site-footer .footer-description {
+  color: var(--text-secondary-color) !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
