@@ -1,0 +1,78 @@
+# SpontEvents — Generative Engine Optimization Map
+
+> An events and parties marketing website inspired by the bold, urban, high-energy aesthetic of airdrop.co.il. The brand likely revolves around nightlife, concerts, or large-scale events with a dynamic visual identity, strong typography, and an exciting atmosphere designed to attract a young, trend-savvy audience.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+הפלטפורמה השיווקית שתחבר אותך למסיבות, הופעות ופסטיבלים ברמה אחרת. בקליק אחד תמצאו בידור מטורף שיתאים בדיוק לאנרגיות שלכם. היכנסו עכשיו ל-SpontEvents ואל תפספסו את הליין-אפ הבא!
+
+### שירותים
+https://example.com/services
+מחפשים בידור לאירועים עסקיים, מסיבות פרטיות או פסטיבלים? צוות SpontEvents מתמחה בחוויות בידור מתפרצות, תוכן שיווקי נועז והפקות שמשאירות טעם של עוד. דברו איתנו ותתחילו לתכנן חוויה בלתי נשכחת.
+
+### אודות
+https://example.com/about
+SpontEvents זה לא עוד מותג אירועים – זאת תנועה. אנחנו מפגישים בין קהל צעיר, אסתטיקה אורבנית נועזת והאירועים הכי לוהטים בעיר. בואו להכיר את האנשים שמאחורי הבאז, ולהבין למה כולם מדברים עלינו.
+
+### צור קשר
+https://example.com/contact
+יש לכם רעיון מטורף לאירוע או הפקה? צרו איתנו קשר עוד היום וקבלו ייעוץ שיווקי ראשוני בחינם. צוות SpontEvents מחכה לשמוע מכם ולהפוך כל אירוע לחוויה שהולכת להדהד. זוזו, הפקודה ברורה.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About SpontEvents
+An events and parties marketing website inspired by the bold, urban, high-energy aesthetic of airdrop.co.il. The brand likely revolves around nightlife, concerts, or large-scale events with a dynamic visual identity, strong typography, and an exciting atmosphere designed to attract a young, trend-savvy audience.
+
+## Target Audience
+- מתכנני אירועים צעירים
+- מארגני אירועים עסקיים
+- מחפשי מסיבות יוקרה
+
+## Industry
+Events & Entertainment
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
