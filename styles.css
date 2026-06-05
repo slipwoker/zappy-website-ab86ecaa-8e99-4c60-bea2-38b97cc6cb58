@@ -6657,6 +6657,354 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+/* Cloned section from URL */
+/* ===== SPONT HERO BANNER ===== */
+.spont-hero-banner {
+  position: relative;
+  width: 100%;
+  min-height: 580px;
+  height: 90vh;
+  max-height: 780px;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  background: #050a14;
+}
+
+/* Background image */
+.spont-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.spont-hero-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  opacity: 0.45;
+  filter: saturate(0.7) brightness(0.6);
+}
+
+/* Dark cinematic overlay */
+.spont-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(5, 10, 20, 0.85) 0%,
+    rgba(20, 10, 50, 0.75) 40%,
+    rgba(0, 40, 60, 0.65) 100%
+  );
+}
+
+/* Glow blobs */
+.spont-hero-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  pointer-events: none;
+}
+
+.spont-hero-glow--purple {
+  width: 420px;
+  height: 420px;
+  background: rgba(139, 92, 255, 0.35);
+  top: -80px;
+  left: 30%;
+  z-index: 1;
+}
+
+.spont-hero-glow--teal {
+  width: 320px;
+  height: 320px;
+  background: rgba(0, 210, 190, 0.25);
+  bottom: 60px;
+  right: 10%;
+  z-index: 1;
+}
+
+/* Inner layout */
+.spont-hero-inner {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px 100px;
+  display: flex;
+  align-items: center;
+}
+
+.spont-hero-content {
+  max-width: 620px;
+  text-align: right;
+}
+
+/* Badge */
+.spont-hero-badge-wrap {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+}
+
+.spont-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #ff5c2b, #ff2d55);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 6px 16px;
+  border-radius: 50px;
+  box-shadow: 0 0 16px rgba(255, 80, 40, 0.55);
+  text-transform: uppercase;
+}
+
+/* Heading */
+.spont-hero-heading {
+  font-size: clamp(2.2rem, 5vw, 3.8rem);
+  font-weight: 900;
+  line-height: 1.15;
+  color: #ffffff;
+  margin: 0 0 18px;
+  text-shadow: 0 2px 30px rgba(139, 92, 255, 0.4);
+  letter-spacing: -0.5px;
+}
+
+.spont-hero-heading-glow {
+  color: #00e5cc;
+  text-shadow:
+    0 0 20px rgba(0, 229, 204, 0.8),
+    0 0 60px rgba(0, 229, 204, 0.4),
+    0 0 100px rgba(0, 229, 204, 0.2);
+}
+
+/* Description */
+.spont-hero-desc {
+  font-size: clamp(0.95rem, 2vw, 1.1rem);
+  line-height: 1.75;
+  color: rgba(210, 220, 235, 0.85);
+  margin: 0 0 32px;
+  max-width: 520px;
+}
+
+/* CTA buttons */
+.spont-hero-ctas {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: 36px;
+}
+
+.spont-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  border: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.spont-btn--primary {
+  background: linear-gradient(135deg, #00d4b8, #00a896);
+  color: #050a14;
+  box-shadow: 0 0 20px rgba(0, 212, 184, 0.5), 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.spont-btn--primary:hover,
+.spont-btn--primary:focus-visible {
+  background: linear-gradient(135deg, #00e5cc, #00bfa5);
+  transform: translateY(-2px);
+  box-shadow: 0 0 35px rgba(0, 229, 204, 0.7), 0 8px 30px rgba(0, 0, 0, 0.4);
+  outline: none;
+}
+
+.spont-btn--ghost {
+  background: transparent;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 0 rgba(255,255,255,0);
+}
+
+.spont-btn--ghost:hover,
+.spont-btn--ghost:focus-visible {
+  border-color: #00e5cc;
+  color: #00e5cc;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(0, 229, 204, 0.3);
+  outline: none;
+}
+
+.spont-btn-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  transform: rotate(180deg); /* RTL arrow direction */
+}
+
+/* Meta chips */
+.spont-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.spont-meta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50px;
+  padding: 8px 16px;
+  color: #e8f0ff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.spont-meta-icon {
+  width: 16px;
+  height: 16px;
+  color: #00e5cc;
+  flex-shrink: 0;
+}
+
+/* Pagination dots */
+.spont-hero-pagination {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spont-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.35);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.3s ease, width 0.3s ease, box-shadow 0.3s ease;
+}
+
+.spont-dot--active {
+  width: 28px;
+  background: #00e5cc;
+  box-shadow: 0 0 10px rgba(0, 229, 204, 0.7);
+}
+
+.spont-dot:hover:not(.spont-dot--active) {
+  background: rgba(255, 255, 255, 0.65);
+}
+
+.spont-dot:focus-visible {
+  outline: 2px solid #00e5cc;
+  outline-offset: 3px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .spont-hero-banner {
+    min-height: 520px;
+    height: auto;
+    max-height: none;
+    align-items: flex-start;
+    padding-top: 40px;
+  }
+
+  .spont-hero-inner {
+    padding: 50px 24px 90px;
+  }
+
+  .spont-hero-content {
+    max-width: 100%;
+  }
+
+  .spont-hero-heading {
+    font-size: clamp(1.9rem, 8vw, 2.6rem);
+  }
+
+  .spont-hero-desc {
+    font-size: 0.95rem;
+  }
+
+  .spont-hero-ctas {
+    justify-content: flex-end;
+  }
+
+  .spont-btn {
+    padding: 12px 22px;
+    font-size: 0.95rem;
+  }
+
+  .spont-hero-glow--purple {
+    width: 260px;
+    height: 260px;
+    left: 10%;
+  }
+
+  .spont-hero-glow--teal {
+    width: 200px;
+    height: 200px;
+    bottom: 30px;
+    right: 5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .spont-hero-inner {
+    padding: 40px 18px 80px;
+  }
+
+  .spont-hero-heading {
+    font-size: 1.75rem;
+  }
+
+  .spont-hero-ctas {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .spont-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .spont-hero-meta {
+    gap: 8px;
+  }
+
+  .spont-meta-chip {
+    font-size: 0.82rem;
+    padding: 7px 12px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
