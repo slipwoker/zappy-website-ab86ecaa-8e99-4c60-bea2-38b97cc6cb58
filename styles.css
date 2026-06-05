@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+
 
 
 /* Self-hosted fonts (Inter + Rubik for multi-language support) */
@@ -68,16 +70,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
-  --primary: #8B5CFF;
-  --secondary: #63D6D0;
-  --accent: #F5A35C;
-  --bg-light: #F4F4F6;
-  --bg-dark: #0A0A0B;
-  --text-dark: #111216;
+--primary: #A855F7;
+  --secondary: #06B6D4;
+  --accent: #22D3EE;
+  --bg-light: #0A0A0F;
+  --bg-dark: #06060B;
+  --text-dark: #F4F4F6;
   --text-light: #F4F4F6;
-  --text-muted: #A7A9B3;
-  --border-light: #D7D9E0;
-  --border-dark: #262833;
+  --text-muted: #A1A1AA;
+  --border-light: #6b6b7b;
+  --border-dark: #6b6b7b;
   --nav-bg: #0A0A0B;
   --nav-text: #F4F4F6;
   --nav-text-hover: #63D6D0;
@@ -98,6 +100,13 @@
   --spacing-element-gap: 16px;
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.3s ease;
+  --primary-color: #A855F7;
+  --secondary-color: #06B6D4;
+  --accent-color: #22D3EE;
+  --background-color: #0A0A0F;
+  --surface-color: #111118;
+  --text-color: #F4F4F6;
+  --text-secondary-color: #A1A1AA;
 }
 
 *, *::before, *::after {
@@ -242,13 +251,13 @@ table {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #7B2FBE 0%, #A855F7 100%);
+  background: linear-gradient(135deg, #710AD4 0%, #A147F6 100%);
   color: #FFFFFF;
   border-color: transparent;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #8B3FD0 0%, #B865FF 100%);
+  background: linear-gradient(135deg, #830CF4 0%, #AC5EF7 100%);
   color: #FFFFFF;
 }
 
@@ -331,11 +340,11 @@ html:not([dir]) .whatsapp-float {
   --nav-bg: #0A0A0B;
   --nav-text: #F4F4F6;
   --nav-text-hover: #63D6D0;
-  --primary: #8B5CFF;
-  --secondary: #63D6D0;
-  --accent: #F5A35C;
+  --primary: #A855F7;
+  --secondary: #06B6D4;
+  --accent: #22D3EE;
   --text-light: #F4F4F6;
-  --text-dark: #111216;
+  --text-dark: #F4F4F6;
 }
 
 .navbar {
@@ -554,11 +563,11 @@ html:not([dir]) .whatsapp-float {
   --nav-bg: #0A0A0B;
   --nav-text: #F4F4F6;
   --nav-text-hover: #63D6D0;
-  --primary: #8B5CFF;
-  --secondary: #63D6D0;
-  --accent: #F5A35C;
+  --primary: #A855F7;
+  --secondary: #06B6D4;
+  --accent: #22D3EE;
   --text-light: #F4F4F6;
-  --text-dark: #111216;
+  --text-dark: #F4F4F6;
 }
 
 .navbar {
@@ -843,7 +852,7 @@ html:not([dir]) .whatsapp-float {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #8B5CFF));
+  outline: 2px solid var(--primary-color, var(--primary, #A855F7));
   outline-offset: 2px;
 }
 
@@ -2003,7 +2012,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 
 
 /* V2 Decorative Helpers — quote marks */
-:root { --decorative-quote-color: var(--accent, #b48b59); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
+:root { --decorative-quote-color: var(--accent, #22D3EE); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
 blockquote::before, .quote::before, [data-quote]::before {
   content: "\201C";
   font-family: var(--decorative-quote-font);
@@ -2208,7 +2217,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #7B2FBE 0%, #A855F7 100%);
+  background: linear-gradient(135deg, #710AD4 0%, #A147F6 100%);
   color: #fff;
   padding: 14px 28px;
   border-radius: 50px;
@@ -3110,7 +3119,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #7B2FBE 0%, #A855F7 100%);
+  background: linear-gradient(135deg, #710AD4 0%, #A147F6 100%);
   color: #fff;
   padding: 14px 28px;
   border-radius: 999px;
@@ -3128,7 +3137,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .index-cta-section .cta-btn:hover {
-  background: linear-gradient(135deg, #8B3FD4 0%, #B866FF 100%);
+  background: linear-gradient(135deg, #8510F4 0%, #AD5FF7 100%);
   box-shadow: 0 8px 30px rgba(168, 85, 247, 0.5);
   transform: translateY(-2px);
 }
@@ -3434,7 +3443,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .services-benefits-section__card {
-  background: #FFFFFF;
+  background: #0A0A0F;
   border-radius: 16px;
   border: 1px solid var(--border-light);
   padding: 32px;
@@ -3675,7 +3684,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #63D6D0;
+  color: #06B6D4;
   letter-spacing: 0.04em;
   width: fit-content;
 }
@@ -3704,7 +3713,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .services-portfolio-section .btn-ghost:hover {
-  color: #63D6D0;
+  color: #06B6D4;
   gap: 12px;
 }
 
@@ -4124,7 +4133,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(135deg, #7B2FBE 0%, #A855F7 100%);
+  background: linear-gradient(135deg, #710AD4 0%, #A147F6 100%);
   color: #fff;
   padding: 14px 28px;
   border-radius: 999px;
@@ -4442,7 +4451,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 /* ── Value Card ── */
 .about-values-section__card {
-  background: #FFFFFF;
+  background: #0A0A0F;
   border-radius: var(--radius-card);
   border: 1px solid var(--border-light);
   padding: var(--spacing-card-padding);
@@ -5280,7 +5289,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .contact-contact-form-section__card {
-  background-color: #fff;
+  background-color: #0A0A0F;
   border-radius: var(--radius-card);
   padding: 40px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
@@ -5394,7 +5403,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 
 .contact-contact-form-section .contact-form__submit {
   grid-column: span 2;
-  background: linear-gradient(135deg, #7B2FBE 0%, #A855F7 100%);
+  background: linear-gradient(135deg, #710AD4 0%, #A147F6 100%);
   color: #fff;
   padding: 16px 32px;
   border-radius: 999px;
@@ -5417,7 +5426,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 .contact-contact-form-section .contact-form__submit:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(139, 92, 255, 0.45);
-  background: linear-gradient(135deg, #8A3FD4 0%, #B366FF 100%);
+  background: linear-gradient(135deg, #8510F4 0%, #AD5FF7 100%);
 }
 
 .contact-contact-form-section .contact-form__submit svg {
@@ -6134,11 +6143,11 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-modal-bg: #ffffff;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
-  --cc-btn-primary-bg: #8b5cff;
+  --cc-btn-primary-bg: #A855F7;
   --cc-btn-primary-color: #ffffff;
-  --cc-btn-primary-border: #8b5cff;
-  --cc-btn-primary-hover-bg: #7243e6;
-  --cc-btn-primary-hover-border: #7243e6;
+  --cc-btn-primary-border: #A855F7;
+  --cc-btn-primary-hover-bg: #A855F7;
+  --cc-btn-primary-hover-border: #A855F7;
   --cc-btn-primary-hover-color: #ffffff;
   /* --cc-btn-secondary-* are used by BOTH the bar's "Customize" link and
    * the preferences modal's "Accept Necessary" / "Save Preferences" pills.
@@ -6152,7 +6161,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   --cc-btn-secondary-hover-bg: #e5e7eb;
   --cc-btn-secondary-hover-color: #111827;
   --cc-btn-secondary-hover-border: #d1d5db;
-  --cc-toggle-on-bg: #8b5cff;
+  --cc-toggle-on-bg: #A855F7;
 }
 
 #cc-main,
@@ -6265,7 +6274,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #8b5cff !important;
+  color: #A855F7 !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -6275,7 +6284,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 #zappy-cookie-banner .zappy-cookie-banner__button--customize:hover {
-  color: #7243e6 !important;
+  color: #A855F7 !important;
   background-color: transparent !important;
 }
 
@@ -6780,7 +6789,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .spont-hero-heading-glow {
-  color: #00e5cc;
+  color: #06B6D4;
   text-shadow:
     0 0 20px rgba(0, 229, 204, 0.8),
     0 0 60px rgba(0, 229, 204, 0.4),
@@ -6845,8 +6854,8 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 .spont-btn--ghost:hover,
 .spont-btn--ghost:focus-visible {
-  border-color: #00e5cc;
-  color: #00e5cc;
+  border-color: #06B6D4;
+  color: #06B6D4;
   transform: translateY(-2px);
   box-shadow: 0 0 20px rgba(0, 229, 204, 0.3);
   outline: none;
@@ -6886,7 +6895,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 .spont-meta-icon {
   width: 16px;
   height: 16px;
-  color: #00e5cc;
+  color: #06B6D4;
   flex-shrink: 0;
 }
 
@@ -6915,7 +6924,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 
 .spont-dot--active {
   width: 28px;
-  background: #00e5cc;
+  background: #06B6D4;
   box-shadow: 0 0 10px rgba(0, 229, 204, 0.7);
 }
 
@@ -6924,7 +6933,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 
 .spont-dot:focus-visible {
-  outline: 2px solid #00e5cc;
+  outline: 2px solid #06B6D4;
   outline-offset: 3px;
 }
 
@@ -7004,6 +7013,28 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 0.82rem;
     padding: 7px 12px;
   }
+}
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-secondary,
+.btn--secondary,
+[class*="btn-secondary"],
+[class*="btn--secondary"] { color: #333333 !important; }
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
+
+:root {
+  --font-heading: 'Heebo', sans-serif;
+  --font-body: 'Heebo', sans-serif;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
